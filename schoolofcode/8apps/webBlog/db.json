@@ -1,0 +1,6 @@
+db.users.insert([
+   {
+      email: 'a@gmail.com',
+      password: 'secret'
+   }
+])
