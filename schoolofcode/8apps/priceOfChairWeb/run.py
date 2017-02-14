@@ -1,3 +1,3 @@
 from app import app
 
-app.run(port=6666, debug=app.config['DEBUG'])
+app.run(port=app.config['PORT'], debug=app.config['DEBUG'])
